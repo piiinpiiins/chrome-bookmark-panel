@@ -14,8 +14,7 @@
 1. 開啟 Chrome，輸入 `chrome://extensions/`
 2. 開啟右上角的「開發人員模式」(Developer mode)
 3. 點選「載入未封裝擴充功能」(Load unpacked)
-4. 選取資料夾：
-   - `/Users/huang/Documents/AIGEN/Obsidian_MyLib/artifacts/my-coding/vibe-coding/chrome-extension-bookmark`
+4. 選取本專案所在資料夾
 
 ## 使用方法
 

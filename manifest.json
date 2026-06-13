@@ -1,25 +1,28 @@
 {
-  "manifest_version": 3,
-  "name": "Bookmark Side Panel",
-  "version": "1.0",
-  "description": "在 Chrome 左側顯示同步的書籤面板，並支援 Ctrl+9 快速開啟。",
-  "permissions": ["bookmarks", "commands"],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "action": {
-    "default_title": "Bookmark Side Panel"
-  },
-  "side_panel": {
-    "default_path": "sidepanel.html"
-  },
-  "commands": {
-    "toggle-bookmark-panel": {
-      "suggested_key": {
-        "default": "Ctrl+9",
-        "mac": "Command+Shift+9"
-      },
-      "description": "開啟/切換書籤側欄"
+    "manifest_version": 3,
+    "name": "Bookmark Side Panel",
+    "version": "1.0",
+    "description": "在 Chrome 左側顯示同步的書籤面板，並支援 Ctrl+9 快速開啟。",
+    "permissions": [
+        "bookmarks",
+        "commands"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Bookmark Side Panel"
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "commands": {
+        "toggle-bookmark-panel": {
+            "suggested_key": {
+                "default": "Ctrl+9",
+                "mac": "Command+Shift+9"
+            },
+            "description": "開啟/切換書籤側欄"
+        }
     }
-  }
 }
